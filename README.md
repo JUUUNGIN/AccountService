@@ -3,6 +3,7 @@ AccountService
 (localhost:8080/h2-console 를 통해 데이터베이스 확인 가능)
 
 (오류 종류)
+
 -status 200  -> 400 : 파라미터 확인 (변수명, 조건 등 타고 타고 들어가서 자세히 확인)
 
 -org.springframework.web.bind.methodargumentnotvalidexception : 원하는 값이 들어오지 않음 ( 내 경우에는 변수명이 잘못 들어가있었다 .  class가 많을수록 연결되는 변수명 잘 입력하자..)
